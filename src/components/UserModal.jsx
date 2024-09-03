@@ -11,7 +11,7 @@ const UserModal = () => {
     console.log(data)
     try {
       // const res = await fetch("/user/signup",{method: "POST", body:data})
-      console.log(res)
+      // console.log(res)
     } catch (error) {
       console.log(error)
     }

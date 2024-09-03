@@ -1,13 +1,13 @@
 import React from 'react'
-import UserModal from '../components/UserModal'
 import Nav from '../components/Nav'
+import { Outlet } from 'react-router-dom'
 
 // import Navbar
 const Home = () => {
   return (
     <div>
       <Nav/>
-      <UserModal />
+      <Outlet/>
     </div>
   )
 }
