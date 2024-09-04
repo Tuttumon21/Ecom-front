@@ -1,10 +1,17 @@
-// import logo from './logo.svg';
 import './App.css';
-import Home from './pages/Home';
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import Base from './pages/Base';
+import UserModal from './components/UserModal';
 
 function App() {
   return (
-    <Home/>
+    // <Home/>
+    <Routes>
+      <Route path='/' element={<Base />} >
+        <Route path='/userlog' element={<UserModal />} />
+      </Route>
+    </Routes>
   );
 }
 
