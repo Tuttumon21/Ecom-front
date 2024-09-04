@@ -1,0 +1,33 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: rgb(154, 194, 194);
+    font-size: larger;
+    
+    
+}
+
+button {
+    margin-left: 10px;
+    color: rgb(1, 1, 1);
+    background-color: #a57b7b;
+}
+
+.remove-button {
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #a57b7b;
+}
+
+    button:hover {
+        background-color: #7a4538;
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}

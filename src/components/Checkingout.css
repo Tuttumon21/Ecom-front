@@ -1,0 +1,51 @@
+.checkout-page {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(108, 170, 174);
+  }
+  
+  fieldset {
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  legend {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #aec694;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #152e39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #662e8e;
+  }
